@@ -52,3 +52,7 @@ model has state that is changed by the UI react
 Intent represents an intention or a desire to perform an action
 
 In example, view folder has the events class (click,edit..) **[AddEditTaskViewEvent.kt](https://github.com/nity-su/android-mvi-sample/blob/master/app/src/main/java/com/kanawish/sample/mvi/view/addedittask/AddEditTaskViewEvent.kt)**
+
+일반적으로 I think USER -> Intent -> Model -> View 
+하지만, 대부분의 MVI 예시에는 state라는 개념이 들어가 있고, 이 예시에 경우는 event class를 선언해서 Clean architecture 에 엔티티, data 로 나눠서 값을 다루는 것과 같은 효과를 만듬
+
