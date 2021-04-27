@@ -45,3 +45,10 @@ Once you grasp the basics, I suggest you explore the following existing librarie
 - https://github.com/groupon/grox
 - https://github.com/spotify/mobius
 - https://github.com/Tinder/StateMachine
+
+
+model has state that is changed by the UI react
+
+Intent represents an intention or a desire to perform an action
+
+In example, view folder has the events class (click,edit..) **[AddEditTaskViewEvent.kt](https://github.com/nity-su/android-mvi-sample/blob/master/app/src/main/java/com/kanawish/sample/mvi/view/addedittask/AddEditTaskViewEvent.kt)**
